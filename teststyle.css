@@ -1,0 +1,229 @@
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  color: rgb(59, 63, 57);
+  background-color: #C6C5B9;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+}
+* {
+  box-sizing: border-box;
+
+}
+@media screen and (max-width: 992px) {
+  .nav-link {
+    padding-right: 120px;
+  }
+}
+@media screen and (max-width: 760px) {
+   .img-fluid, .d-block {
+    width: 100%;
+    align-self: center;
+  } 
+}
+
+@media screen and (max-width: 760px) {
+  .main-content {
+      width: 100% !important;
+  } 
+}
+@media screen and (max-width: 600px) {
+  .button {
+      margin: auto !important;
+      padding-left: 30px;
+  } .main-content {
+      padding: 10px !important;
+      margin: auto;
+  } .img-fluid {
+      padding: 15px !important;
+  }.main-content {
+    width: 100%;
+  } .container, .content {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  } .container-content {
+    padding: 10px !important;
+  }.container-social {
+    left: 0;
+    top: 0;
+    padding:30px;
+  }
+}
+.container-kontakti {
+  text-align: center;
+  padding: 15px;
+  word-spacing: 1px;
+
+}
+h2 {
+  font-weight: 300;
+  text-align: center;
+  color: #2465A4;
+  padding: 10px;
+}
+h5 {
+  color: #2465A4;
+  font-weight: 400;
+
+}
+a {
+  text-decoration: none;
+  color: #2465A4;
+  font-size: 20px;
+}
+a:link, :visited {
+  text-decoration: none;
+  color: #2465A4 !important;
+  font-weight: bolder;
+  
+}
+.nav-link {
+padding-left: 95px !important;
+padding-top: 30px;
+}
+a:hover, .active {
+  color: #FDFDFF !important;
+
+}
+.soc {
+right: 0;
+bottom: 0;
+text-decoration: none !important;
+font-size: 13px;
+padding-left: 50px;
+font-weight: 300 !important;
+}
+.soc:hover {
+color: rgb(248, 240, 233) !important;
+}
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+.img-fluid, .d-block, #myImg {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-social {
+  position: absolute;
+  width: 150px !important;
+  z-index: 1;
+  top: 0px;
+  right: 0px;
+  padding:30px;
+  background: #C6C5B9 !important;
+}
+.container-content {
+  width: 100%;
+  padding-left: 130px;
+  padding-right: 120px;
+  margin: auto;
+}
+.main-content {
+color: #393D3F;
+font-size: 21px;
+text-align: left;
+width: 100%;
+margin-right: auto;
+margin-left: auto;
+padding: 15px;
+padding-top: 50px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 200;
+}
+
+.content {
+  color: black;
+  font-size: 22px;
+  text-align: left;
+  width: 100%;
+  font-weight: 200;
+  padding: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer {
+background-color: #393D3F !important;
+text-align: center;
+width: 100%;
+box-sizing: border-box;
+padding: 15px;
+color: #EDBA00;
+bottom: 0;
+font-size: 15px;
+
+}
+.container {
+margin: auto;
+}
+.col-md-12 {
+padding: 15px;
+}
+.navbar-toggler {
+background-color: #2465A4;
+line-height: 10px;
+bottom: 50px;
+margin-top: 40px;
+}
+.navbar-brand {
+background-color: rgb(248, 240, 233);
+}
+
+.d-block {
+max-width: 100%;
+height: auto;
+margin: auto;
+}
+.hor {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.scrolling-wrapper {
+overflow-x: scroll;
+overflow-y: hidden;
+white-space: nowrap;
+border-radius: 0px;
+padding: 20px;
+-webkit-overflow-scrolling: touch;
+padding-bottom: 50px;
+margin: auto !important;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+.card {
+display: inline-block;
+background: transparent;
+border: none;
+border-radius: 0px !important;
+padding: 10px;
+}
+figcaption {
+text-align: center;
+text-decoration: none;
+background: transparent;
+color: black;
+padding-top: 10px;
+font-size: 16px;
+font-weight: 200;
+}
+hr {
+border: solid 0.5px #2465A4;
+margin-left: 30px !important;
+margin-right: 30px !important;
+}
